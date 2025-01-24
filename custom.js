@@ -34,15 +34,49 @@ console.log($project);
 const myFristName = "AbuTalha";
 console.log(myFristName);
 
-
-
-
 //  comments kora dekhbo;
 
 // Single Line Comment;
 // Another single line commnent;
 
-
 /*
 This is a Multi Line Comment Example;
 */
+
+/*
+//1. Primitive values;
+// String
+Boolean
+Number
+null
+undefined
+BigInt
+Symbol
+
+2.Object;
+*/
+
+// undefined;
+let un = undefined;
+console.log(typeof un);
+
+// null;
+const nl = null;
+console.log(typeof nl);
+
+
+// number;
+var number = 2983.3;
+console.log(typeof number);
+
+// string;
+let myName = 'Abu Talha';
+console.log(typeof myName);
+
+// bigint;
+let bigint = BigInt;
+console.log(typeof bigint);
+
+// Symbol
+const symbol = Symbol;
+console.log(typeof symbol);
