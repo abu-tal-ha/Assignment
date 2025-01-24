@@ -43,6 +43,8 @@ console.log(myFristName);
 This is a Multi Line Comment Example;
 */
 
+
+
 /*
 //1. Primitive values;
 // String
@@ -78,5 +80,6 @@ let bigint = BigInt;
 console.log(typeof bigint);
 
 // Symbol
-const symbol = Symbol;
-console.log(typeof symbol);
+const symboll = Symbol;
+console.log( symboll);
+
