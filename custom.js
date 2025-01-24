@@ -83,3 +83,5 @@ console.log(typeof bigint);
 const symboll = Symbol;
 console.log( symboll);
 
+const myFullName = 'AbuTalha'
+console.log(myFristName);
