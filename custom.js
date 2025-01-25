@@ -1,3 +1,5 @@
+// assingment 01;
+
 // standar way
 var firstName = "Abu";
 var age = 20;
@@ -43,8 +45,6 @@ console.log(myFristName);
 This is a Multi Line Comment Example;
 */
 
-
-
 /*
 //1. Primitive values;
 // String
@@ -66,13 +66,12 @@ console.log(typeof un);
 const nl = null;
 console.log(typeof nl);
 
-
 // number;
 var number = 2983.3;
 console.log(typeof number);
 
 // string;
-let myName = 'Abu Talha';
+let myName = "Abu Talha";
 console.log(typeof myName);
 
 // bigint;
@@ -81,7 +80,95 @@ console.log(typeof bigint);
 
 // Symbol
 const symboll = Symbol;
-console.log( symboll);
+console.log(symboll);
 
-const myFullName = 'AbuTalha'
+const myFullName = "AbuTalha";
 console.log(myFristName);
+
+
+
+
+// assingment02;
+
+// data convert 3 way te;
+// string;
+// Number;
+// Boolean;
+
+// number to string;
+let a = 1;
+let b = "33";
+console.log(a + b);
+
+// string to number;
+let x = 1;
+let p = "33";
+console.log(x - p);
+
+// string to number;
+let m = 10;
+let n = "55ab";
+
+console.log(parseInt(n));
+
+
+// Boolean;
+let bl = 10;
+var boole = '20';
+console.log(bl > boole);
+
+// Boolean;
+let boolen = 100;
+var bool = '20';
+console.log(boolen > bool);
+
+// true && true;
+let tr = 'hellw' && 333;
+console.log(tr);
+
+// true || true;
+let tru = 'hellw' || 333;
+console.log(tru);
+
+
+// true valuse and false value;
+// false value;
+/*
+null,
+undefind,
+0,
+-0,
+0n,
+NaN,
+
+*/
+
+console.log(Boolean(0n));
+
+
+// if else;
+if (-0) {
+    console.log('hellw world ');   
+}
+
+// number to methods;
+let num = 29440;
+let num2 = 49;
+console.log(num.toString());
+console.log(num.toExponential());
+
+// toFixed;
+let fx = 43.54848487;
+let fxed = 4;
+
+
+console.log(fx.toFixed(2));
+console.log(Math.round(fx));
+console.log(Math.ceil(fx));
+console.log(Math.floor(fx));
+console.log(Math.pow(5,3));
+console.log(Math.round(Math.random() * 100));
+
+
+
+
