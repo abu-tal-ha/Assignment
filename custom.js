@@ -172,5 +172,36 @@ console.log(Math.round(Math.random() * 100));
 
 
 
+// string methods;
+let st = 'abu, talha';
+console.log(st.toUpperCase());
+console.log(st.length);
+console.log(st.toLowerCase());
+console.log(st.slice(0,3));
+console.log(st.slice(-5));
+console.log(st.substring(0, 3));
+console.log(st.replace('talha', 'Tal Ha'));
+console.log(st + '?');
+console.log(st.trim());
+console.log(st.charAt());
+console.log(st.at(2));
+console.log(st.split(','));
+
+
+// array understanding ;
+const arr =[ 'talha', 'sajib', 'rakib', 'tamim'];
+console.log(arr);
+console.log(arr[0,1,2]);
+
+
+
+
+
+
+
+
+
+
+
 
 
