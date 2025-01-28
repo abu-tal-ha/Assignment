@@ -85,9 +85,6 @@ console.log(symboll);
 const myFullName = "AbuTalha";
 console.log(myFristName);
 
-
-
-
 // assingment02;
 
 // data convert 3 way te;
@@ -111,25 +108,23 @@ let n = "55ab";
 
 console.log(parseInt(n));
 
-
 // Boolean;
 let bl = 10;
-var boole = '20';
+var boole = "20";
 console.log(bl > boole);
 
 // Boolean;
 let boolen = 100;
-var bool = '20';
+var bool = "20";
 console.log(boolen > bool);
 
 // true && true;
-let tr = 'hellw' && 333;
+let tr = "hellw" && 333;
 console.log(tr);
 
 // true || true;
-let tru = 'hellw' || 333;
+let tru = "hellw" || 333;
 console.log(tru);
-
 
 // true valuse and false value;
 // false value;
@@ -145,10 +140,9 @@ NaN,
 
 console.log(Boolean(0n));
 
-
 // if else;
 if (-0) {
-    console.log('hellw world ');   
+  console.log("hellw world ");
 }
 
 // number to methods;
@@ -161,47 +155,53 @@ console.log(num.toExponential());
 let fx = 43.54848487;
 let fxed = 4;
 
-
 console.log(fx.toFixed(2));
 console.log(Math.round(fx));
 console.log(Math.ceil(fx));
 console.log(Math.floor(fx));
-console.log(Math.pow(5,3));
+console.log(Math.pow(5, 3));
 console.log(Math.round(Math.random() * 100));
 
-
-
-
 // string methods;
-let st = 'abu, talha';
+let st = "abu, talha";
 console.log(st.toUpperCase());
 console.log(st.length);
 console.log(st.toLowerCase());
-console.log(st.slice(0,3));
+console.log(st.slice(0, 3));
 console.log(st.slice(-5));
 console.log(st.substring(0, 3));
-console.log(st.replace('talha', 'Tal Ha'));
-console.log(st + '?');
+console.log(st.replace("talha", "Tal Ha"));
+console.log(st + "?");
 console.log(st.trim());
 console.log(st.charAt());
 console.log(st.at(2));
-console.log(st.split(','));
-
+console.log(st.split(","));
 
 // array understanding ;
-const arr =[ 'talha', 'sajib', 'rakib', 'tamim'];
+const arr = ["talha", "sajib", "rakib", "tamim"];
 console.log(arr);
-console.log(arr[0,1,2]);
+console.log(arr[(0, 1, 2)]);
+
+// loop;
+// for loop;
+const nmbr = [1, 2, 3, 4, 5, 6, 7, 8];
+for (let i = 0; i < nmbr.length; i++) {
+  console.log(nmbr[i]);
+}
+
+// forEach;
+nmbr.forEach(function (item, index, arr) {
+    console.log(arr);
+});
 
 
+// 
 
-
-
-
-
-
-
-
-
-
-
+// arry methods;
+ let persn = ['talha', 'rakib', 'naim']
+let ingr = persn.pop()
+// persn[3] = 'jane'
+persn.push('jane')
+persn.shift()
+persn.unshift('aaa')
+ console.log(persn);
