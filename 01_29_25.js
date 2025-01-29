@@ -26,5 +26,27 @@ console.log(jj--);
 
 
 
+// Assignment Operators;
+let one = 30;
+let two = 20;
+
+// one = one + two;
+// console.log(one);
+one += two;
+console.log(one);
+
+// one = one - two;
+// console.log(one);
+one -= two;
+console.log(one);
+
+one *= two;
+console.log(one);
+
+one /= two;
+console.log(one);
+
+
+
 
 
